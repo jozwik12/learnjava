@@ -1,39 +1,36 @@
 package com.javaudemy.codewars;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Line {
     public static String Tickets(int[] peopleInLine) {
-        int[] money = new int[1000];
+        ArrayList<Integer> list = new ArrayList<>();
         String result = "YES";
-        int index = 0;
-
         for (int i : peopleInLine) {
-            money[index] = i;
-            index++;
-
+            if (i == 25) {
+                list.add(i);
+            }
             if (i == 50) {
-                result = contains(money,25) ? "YES" :"NO";
-                break;
+                if (list.contains(25)) {
+                    list.remove((Integer) 25);
+                    list.add(i);
+                } else return "NO";
             }
             if (i == 100) {
-
-                break;
-            }
-
-        }
-        return result;
-    }
-
-    private static boolean contains(int[] searchedArray, int searchedValue) {
-        boolean found = false;
-
-        for (int i : searchedArray) {
-            if (i == searchedValue) {
-                found = true;
-                break;
+                if (list.contains(25) && list.contains(50)) {
+                    list.remove((Integer) 25);
+                    list.remove((Integer) 50);
+                    list.add(i);
+                } else return "NO";
             }
         }
-        return found;
+        return "YES";
     }
+
+    public static void main(String[] args) {
+        System.out.println(Line.Tickets(new int[]{25, 25, 50}));
+        System.out.println(Line.Tickets(new int[]{25, 100}));
+        System.out.println(Line.Tickets(new int[]{25, 25, 50, 50, 100}));
+    }
+
 }
