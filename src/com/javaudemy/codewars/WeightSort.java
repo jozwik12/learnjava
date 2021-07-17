@@ -10,7 +10,6 @@ public class WeightSort {
         for (String s1 : arr) {
             list.put(calculateWeight(s1), s1);
         }
-        System.out.println(list());
         return null;
     }
 
