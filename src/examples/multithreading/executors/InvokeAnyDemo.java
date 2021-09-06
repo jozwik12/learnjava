@@ -1,4 +1,4 @@
-package examples.multithreading.executors;
+package com.itbulls.learnit.javacore.multithreading.executors;
 
 import java.util.ArrayList;
 import java.util.Arrays;

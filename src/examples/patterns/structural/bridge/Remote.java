@@ -1,4 +1,4 @@
-package examples.patterns.structural.bridge;
+package com.itbulls.learnit.javacore.patterns.structural.bridge;
 
 public interface Remote {
     public void power();

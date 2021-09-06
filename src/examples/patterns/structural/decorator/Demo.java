@@ -1,4 +1,4 @@
-package examples.patterns.structural.decorator;
+package com.itbulls.learnit.javacore.patterns.structural.decorator;
 
 public class Demo {
 	public static void main(final String[] args) {

@@ -1,4 +1,4 @@
-package examples.patterns.structural.adapter;
+package com.itbulls.learnit.javacore.patterns.structural.adapter;
 
 import java.util.Collections;
 import java.util.List;

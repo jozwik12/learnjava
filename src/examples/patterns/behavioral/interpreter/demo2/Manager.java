@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.interpreter.demo2;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package examples.patterns.structural.flyweight;
+package com.itbulls.learnit.javacore.patterns.structural.flyweight;
 
 import javax.swing.*;
 import java.awt.*;

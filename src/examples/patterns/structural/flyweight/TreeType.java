@@ -1,4 +1,4 @@
-package examples.patterns.structural.flyweight;
+package com.itbulls.learnit.javacore.patterns.structural.flyweight;
 
 import java.awt.Color;
 import java.awt.Graphics;

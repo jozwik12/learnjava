@@ -1,4 +1,4 @@
-package examples.patterns.creational.prototype;
+package com.itbulls.learnit.javacore.patterns.creational.prototype;
 
 import java.util.HashMap;
 import java.util.Map;

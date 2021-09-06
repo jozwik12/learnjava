@@ -1,4 +1,6 @@
-package examples.patterns.behavioral.state;
+package com.itbulls.learnit.javacore.patterns.behavioral.state;
+
+import static com.itbulls.learnit.javacore.patterns.behavioral.state.InModerationState.*;
 
 public class Demo {
 	

@@ -1,4 +1,4 @@
-package examples.patterns.creational.abstractfactory.example2;
+package com.itbulls.learnit.javacore.patterns.creational.abstractfactory.example2;
 
 public class Demo {
 

@@ -1,4 +1,4 @@
-package examples.patterns.creational.singleton;
+package com.itbulls.learnit.javacore.patterns.creational.singleton;
 
 public class OrderManagementService {
 	

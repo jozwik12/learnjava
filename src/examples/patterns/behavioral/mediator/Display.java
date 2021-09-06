@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.mediator;
+package com.itbulls.learnit.javacore.patterns.behavioral.mediator;
 
 public class Display {
 	

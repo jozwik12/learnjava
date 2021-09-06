@@ -1,4 +1,4 @@
-package examples.patterns.structural.composite;
+package com.itbulls.learnit.javacore.patterns.structural.composite;
 
 import javax.swing.*;
 import javax.swing.border.Border;

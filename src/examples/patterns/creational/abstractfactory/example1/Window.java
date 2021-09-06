@@ -1,4 +1,4 @@
-package examples.patterns.creational.abstractfactory.example1;
+package com.itbulls.learnit.javacore.patterns.creational.abstractfactory.example1;
 
 //Our AbstractProduct
 

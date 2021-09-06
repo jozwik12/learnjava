@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.observer;
+package com.itbulls.learnit.javacore.patterns.behavioral.observer;
 
 import java.util.ArrayList;
 import java.util.List;

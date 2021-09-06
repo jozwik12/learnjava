@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.interpreter.demo1;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo1;
 
 public class IntToBinaryExpression implements Expression {
 

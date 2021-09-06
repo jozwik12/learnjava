@@ -1,9 +1,9 @@
-package examples.patterns.behavioral.interpreter.demo2.expressions;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.expressions;
 
 import java.util.stream.Collectors;
 
-import examples.patterns.behavioral.interpreter.demo2.Employee;
-import examples.patterns.behavioral.interpreter.demo2.Manager;
+import com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.Employee;
+import com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.Manager;
 
 public class ManagerOfExpression extends TerminalExpression {
 

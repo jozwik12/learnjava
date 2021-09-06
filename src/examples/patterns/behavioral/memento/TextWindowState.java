@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.memento;
+package com.itbulls.learnit.javacore.patterns.behavioral.memento;
 
 // Memento class
 public class TextWindowState {

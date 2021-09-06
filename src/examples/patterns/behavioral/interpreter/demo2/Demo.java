@@ -1,7 +1,7 @@
-package examples.patterns.behavioral.interpreter.demo2;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2;
 
-import examples.patterns.behavioral.interpreter.demo2.expressions.Expression;
-import examples.patterns.behavioral.interpreter.demo2.expressions.ExpressionParser;
+import com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.expressions.Expression;
+import com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.expressions.ExpressionParser;
 
 public class Demo {
 

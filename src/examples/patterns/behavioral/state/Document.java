@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.state;
+package com.itbulls.learnit.javacore.patterns.behavioral.state;
 
 public class Document {
 	

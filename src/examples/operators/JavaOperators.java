@@ -210,7 +210,7 @@ public class JavaOperators {
 //		
 //		()
 //		[]
-//		·
+//		ï¿½
 //		
 //		
 //		++
@@ -218,7 +218,7 @@ public class JavaOperators {
 //		
 //		
 //		+
-//		—
+//		ï¿½
 //		!
 //		~
 //		( type )
@@ -230,7 +230,7 @@ public class JavaOperators {
 //		
 //		
 //		+
-//		–
+//		ï¿½
 //		
 //		
 //		<<

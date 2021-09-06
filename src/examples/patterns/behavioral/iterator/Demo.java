@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.iterator;
+package com.itbulls.learnit.javacore.patterns.behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.HashSet;

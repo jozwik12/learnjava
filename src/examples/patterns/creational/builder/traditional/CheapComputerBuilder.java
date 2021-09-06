@@ -1,4 +1,4 @@
-package examples.patterns.creational.builder.traditional;
+package com.itbulls.learnit.javacore.patterns.creational.builder.traditional;
 
 public class CheapComputerBuilder extends ComputerBuilder {
 	@Override

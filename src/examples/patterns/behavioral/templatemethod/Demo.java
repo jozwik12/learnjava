@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.templatemethod;
+package com.itbulls.learnit.javacore.patterns.behavioral.templatemethod;
 
 public class Demo {
 	

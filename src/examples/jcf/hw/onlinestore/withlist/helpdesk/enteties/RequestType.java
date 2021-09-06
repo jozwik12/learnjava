@@ -1,9 +1,11 @@
 package examples.jcf.hw.onlinestore.withlist.helpdesk.enteties;
 
+import static examples.jcf.hw.onlinestore.withlist.helpdesk.enteties.Priority.*;
+
 public enum RequestType {
-	OTHER(Priority.LOW), CHANGE_ACCOUNT_DETAILS(Priority.LOW), CAN_NOT_LOGIN(Priority.MEDIUM),
-	ACCOUNT_IS_BLOCKED(Priority.MEDIUM), COOPERATION(Priority.MEDIUM), ACCOUNT_IS_HACKED(Priority.HIGH),
-	CAN_NOT_COMPLETE_PURCHASE(Priority.HIGH), ORDER_IS_NOT_RECEIVED(Priority.HIGH);
+	OTHER(LOW), CHANGE_ACCOUNT_DETAILS(LOW), CAN_NOT_LOGIN(MEDIUM), 
+	ACCOUNT_IS_BLOCKED(MEDIUM), COOPERATION(MEDIUM), ACCOUNT_IS_HACKED(HIGH), 
+	CAN_NOT_COMPLETE_PURCHASE(HIGH), ORDER_IS_NOT_RECEIVED(HIGH);
 	
 	private Priority priority;
 	

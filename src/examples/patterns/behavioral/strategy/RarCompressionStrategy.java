@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.strategy;
+package com.itbulls.learnit.javacore.patterns.behavioral.strategy;
 
 import java.io.File;
 import java.util.List;

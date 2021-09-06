@@ -1,4 +1,4 @@
-package examples.patterns.structural.facade;
+package com.itbulls.learnit.javacore.patterns.structural.facade;
 
 import java.util.Date;
 import java.util.List;

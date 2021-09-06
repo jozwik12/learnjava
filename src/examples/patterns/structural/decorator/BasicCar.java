@@ -1,4 +1,4 @@
-package examples.patterns.structural.decorator;
+package com.itbulls.learnit.javacore.patterns.structural.decorator;
 
 public class BasicCar implements Car {
 

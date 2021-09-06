@@ -1,4 +1,4 @@
-package examples.patterns.structural.facade;
+package com.itbulls.learnit.javacore.patterns.structural.facade;
 
 public class TravelRoute {
 	

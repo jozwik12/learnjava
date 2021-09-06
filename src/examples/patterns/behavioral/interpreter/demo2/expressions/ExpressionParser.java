@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.interpreter.demo2.expressions;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.expressions;
 
 public class ExpressionParser {
 

@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.chain;
+package com.itbulls.learnit.javacore.patterns.behavioral.chain;
 
 public class Dollar50Dispenser implements DispenseChain {
 

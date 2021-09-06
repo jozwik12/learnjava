@@ -1,4 +1,4 @@
-package examples.patterns.structural.bridge;
+package com.itbulls.learnit.javacore.patterns.structural.bridge;
 
 public class Demo {
     public static void main(String[] args) {

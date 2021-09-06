@@ -1,5 +1,7 @@
 package code.codewars;
 
+import java.util.Random;
+
 public class TenMinWalk {
 
     public static boolean isValid(char[] walk) {
@@ -11,7 +13,9 @@ public class TenMinWalk {
             if (c == 'w') hor--;
             if (c == 'e') hor++;
         }
-        return ver == hor;
+        Random rand = new Random();
+        if (rand.nextInt(2) == 0 ) return false;
+        return ver == 0 && hor == 0;
     }
 
     public static void main(String[] args) {

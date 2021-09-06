@@ -1,6 +1,6 @@
-package examples.patterns.behavioral.interpreter.demo2.expressions;
+package com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.expressions;
 
-import examples.patterns.behavioral.interpreter.demo2.Employee;
+import com.itbulls.learnit.javacore.patterns.behavioral.interpreter.demo2.Employee;
 
 public interface Expression {
 	

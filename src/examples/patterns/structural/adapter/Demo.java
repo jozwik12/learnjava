@@ -1,4 +1,4 @@
-package examples.patterns.structural.adapter;
+package com.itbulls.learnit.javacore.patterns.structural.adapter;
 
 public class Demo {
 	public static void main(String[] args) {

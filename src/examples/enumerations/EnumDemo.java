@@ -23,7 +23,7 @@ public class EnumDemo {
 		Priority priority2 = Priority.valueOf("HIGH");
 		System.out.println(priority2);
 		
-//		priority2 = Priority.valueOf("high"); // java.lang.IllegalArgumentException: No enum constant com.itbulls.learnit.javacore.enumerations.Priority.high
+//		priority2 = Priority.valueOf("high"); // java.lang.IllegalArgumentException: No enum constant Priority.high
 		
 		
 		System.out.println("============ Enum comparison");

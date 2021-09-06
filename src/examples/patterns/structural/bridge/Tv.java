@@ -1,4 +1,4 @@
-package examples.patterns.structural.bridge;
+package com.itbulls.learnit.javacore.patterns.structural.bridge;
 
 public class Tv implements Device {
     private boolean on = false;

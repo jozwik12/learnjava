@@ -1,4 +1,4 @@
-package examples.patterns.structural.proxy;
+package com.itbulls.learnit.javacore.patterns.structural.proxy;
 
 import java.util.ArrayList;
 import java.util.List;

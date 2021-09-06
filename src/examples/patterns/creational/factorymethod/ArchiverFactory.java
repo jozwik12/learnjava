@@ -1,4 +1,4 @@
-package examples.patterns.creational.factorymethod;
+package com.itbulls.learnit.javacore.patterns.creational.factorymethod;
 
 import java.util.HashMap;
 import java.util.Map;

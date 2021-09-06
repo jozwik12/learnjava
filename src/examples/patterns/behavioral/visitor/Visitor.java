@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.visitor;
+package com.itbulls.learnit.javacore.patterns.behavioral.visitor;
 
 public interface Visitor {
 	

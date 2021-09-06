@@ -1,4 +1,4 @@
-package examples.patterns.behavioral.command;
+package com.itbulls.learnit.javacore.patterns.behavioral.command;
 
 public class Demo {
 	

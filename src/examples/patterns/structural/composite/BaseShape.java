@@ -1,4 +1,4 @@
-package examples.patterns.structural.composite;
+package com.itbulls.learnit.javacore.patterns.structural.composite;
 
 import java.awt.*;
 

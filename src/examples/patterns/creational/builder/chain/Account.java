@@ -1,4 +1,4 @@
-package examples.patterns.creational.builder.chain;
+package com.itbulls.learnit.javacore.patterns.creational.builder.chain;
 
 public class Account {
 
