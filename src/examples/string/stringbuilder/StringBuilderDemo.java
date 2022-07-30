@@ -8,17 +8,17 @@ import java.util.List;
 public class StringBuilderDemo {
 	
 	public static void main(String[] args) throws IOException {
-		long timeStart = System.currentTimeMillis();
+		long timeStart = System.nanoTime();
 		String result = readAllLinesFromFile();
 		System.out.println(result);
-		long delta1 = (System.currentTimeMillis() - timeStart);
+		long delta1 = (System.nanoTime() - timeStart);
 		
 		System.out.println("=============================");
 		
-		timeStart = System.currentTimeMillis();
+		timeStart = System.nanoTime();
 		result = readAllLinesFromFileWithStringBuilder();
 		System.out.println(result);
-		long delta2 = (System.currentTimeMillis() - timeStart);
+		long delta2 = (System.nanoTime() - timeStart);
 		
 		System.out.println("=============================");
 		
@@ -28,7 +28,7 @@ public class StringBuilderDemo {
 
 	private static String readAllLinesFromFile() throws IOException {
 		String resultString = "";
-		List<String> allines = Files.readAllLines(Paths.get("test_text.txt"));
+		List<String> allines = Files.readAllLines(Paths.get("sample text.txt"));
 		for (String line : allines) {
 			// The approach below will bring us to the case when we have a lot of string objects
 			resultString += line; 
@@ -39,7 +39,7 @@ public class StringBuilderDemo {
 	
 	private static String readAllLinesFromFileWithStringBuilder() throws IOException {
 		StringBuilder sb = new StringBuilder();
-		List<String> allines = Files.readAllLines(Paths.get("test_text.txt"));
+		List<String> allines = Files.readAllLines(Paths.get("sample text.txt"));
 		for (String line : allines) {
 			sb.append(line).append(System.lineSeparator()); 
 		}

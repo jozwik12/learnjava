@@ -28,6 +28,10 @@ public class Rainfall {
         return 0;
     }
 
+    public static String getMeasurementsByTown(String town, String dupa) {
+
+    }
+
 
     public static void main(String[] args) {
         String data =

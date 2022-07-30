@@ -35,7 +35,7 @@ public class Demo {
 		Class[] interfaces = userClass.getInterfaces();
 		Arrays.stream(interfaces).forEach(i -> System.out.println(i.getName()));
 		
-		userClass = Class.forName("com.itbulls.learnit.javacore.reflection.Demo$User");
+		userClass = Class.forName("examples.reflection.Demo$User");
 		
 		System.out.println("===== Get Constructors =====");
 		Constructor<User>[] constructors = userClass.getDeclaredConstructors();

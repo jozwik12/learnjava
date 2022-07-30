@@ -41,35 +41,35 @@
 //				}
 //
 //			}
-//			
+//
 //			System.out.println("Please, enter 'R2D' or 'D2R.");
 //		}
 //	}
 //
-//	
+//
 //
 //	/**
 //	 * Converts decimal numbers to Roman.
-//	 * 
+//	 *
 //	 * Takes int value as a parameter. Works only with numbers from 1 to 100.
-//	 * 
+//	 *
 //	 * @param number to convert to Roman.
 //	 * @return string of Roman number.
 //	 */
 ////	public static String decimal2Roman(int number) {
-////		
-////		
-////		
+////
+////
+////
 ////	}
 //
 //	/**
 //	 * Converts Roman numbers to decimal.
-//	 * 
+//	 *
 //	 * Takes string value with Roman number as a parameter.
-//	 * 
+//	 *
 //	 * At first method validates if input string could be Roman number. After method
 //	 * uses algorithm to convert Roman numeral to decimal.
-//	 * 
+//	 *
 //	 * @param romanNumber
 //	 * @return decimal representation of Roman number
 //	 */
@@ -81,17 +81,17 @@
 ////
 ////	/**
 ////	 * Validation for Roman numbers.
-////	 * 
+////	 *
 ////	 * Use regular expression which is checking if string really could be Roman
 ////	 * number.
-////	 * 
+////	 *
 ////	 * @param romanNumber
 ////	 * @return true if String is Roman number
 ////	 */
 ////	public static boolean isRomanNumberValid(String romanNumber) {
 ////	    return romanNumber.matches("^(?=[CLXVI])C?(X[CL]|L?X*)(I[XV]|V?I*)$");
 ////	}
-////	
+////
 ////	public static boolean isDecimalNumberValid(int decimalNumber) {
 ////		return decimalNumber>0 && decimalNumber <= 100;
 ////	}
